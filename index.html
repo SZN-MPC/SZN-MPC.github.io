@@ -8,20 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Robust-Locomotion-by-Logic: Perturbation-Resilient Bipedal Locomotion via Signal Temporal Logic Guided Model Predictive Control</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-PYVRSFMDRL');
-  </script>
-
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
 
@@ -52,7 +38,7 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
+      <a class="navbar-item" href="https://github.gatech.edu/GeorgiaTechLIDARGroup">
       <span class="icon">
           <i class="fas fa-home"></i>
       </span>
@@ -214,10 +200,10 @@
 
     <div class="columns is-centered">
 
-      <!-- Visual Effects. -->
+      <!-- Boat Motion. -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
+          <h2 class="title is-3">Boat Motion</h2>
           <p>
             Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
             would be impossible without nerfies since it would require going through a wall.
@@ -228,11 +214,11 @@
           </video>
         </div>
       </div>
-      <!--/ Visual Effects. -->
+      <!--/ Boat Motion. -->
 
-      <!-- Matting. -->
+      <!-- Tilting. -->
       <div class="column">
-        <h2 class="title is-3">Matting</h2>
+        <h2 class="title is-3">Tilting</h2>
         <div class="columns is-centered">
           <div class="column content">
             <p>
@@ -248,77 +234,48 @@
         </div>
       </div>
     </div>
-    <!--/ Matting. -->
+    <!--/ Tilting. -->
 
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
+      <!-- Stepping Stone. -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">Stepping Stone</h2>
           <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
+            would be impossible without nerfies since it would require going through a wall.
           </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
-        <br/>
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/dollyzoom-stacked.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <!--/ Re-rendering. -->
+      </div>
+      <!--/ Stepping Stone. -->
 
+      <!-- Bump'Em. -->
+      <div class="column">
+        <h2 class="title is-3">Bump'Em</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              As a byproduct of our method, we can also solve the matting problem by ignoring
+              samples that fall outside of a bounding box during rendering.
+            </p>
+            <video id="matting-video" controls playsinline height="100%">
+              <source src="./static/videos/matting.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+
+        </div>
       </div>
     </div>
-    <!--/ Animation. -->
+    <!--/ Bump'Em. -->
 
-
-    <!-- Concurrent Work. -->
+    <!-- Lidar Research Group. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
+        <h2 class="title is-3">Lidar Research Group</h2>
 
         <div class="content has-text-justified">
           <p>
@@ -340,7 +297,7 @@
         </div>
       </div>
     </div>
-    <!--/ Concurrent Work. -->
+    <!--/ Lidar Research Group. -->
 
   </div>
 </section>
@@ -349,11 +306,15 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@article{arxiv:2403.15993,
+  author       = {Zhaoyuan Gu and Yuntian Zhao and Yipu Chen and Rongming Guo and Jennifer K. Leestma and Gregory S. Sawicki and Ye Zhao},
+  title        = {Robust-Locomotion-by-Logic: Perturbation-Resilient Bipedal Locomotion via STL-Based Model Predictive Control},
+  journal      = {arXiv preprint arXiv:2403.15993},
+  year         = 2024,
+  url          = {https://arxiv.org/abs/2403.15993},
+  archivePrefix= {arXiv},
+  eprint       = {2403.15993},
+  primaryClass = {cs.RO}
 }</code></pre>
   </div>
 </section>
@@ -363,10 +324,10 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
+         href="https://arxiv.org/pdf/2403.15993">
         <i class="fas fa-file-pdf"></i>
       </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+      <a class="icon-link" href="https://github.gatech.edu/GeorgiaTechLIDARGroup/cassie_software" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
     </div>
