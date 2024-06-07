@@ -1,15 +1,20 @@
-# Nerfies
+# Bipedal STL MPC
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [Bipedal STL MPC website](https://bipedal-stl-mpc.github.io).
 
 If you find Nerfies useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{arxiv:2403.15993,
+  author       = {Zhaoyuan Gu and Yuntian Zhao and Yipu Chen and Rongming Guo and Jennifer K. Leestma and Gregory S. Sawicki and Ye Zhao},
+  title        = {Robust-Locomotion-by-Logic: Perturbation-Resilient Bipedal Locomotion via STL-Based Model Predictive Control},
+  journal      = {arXiv preprint arXiv:2403.15993},
+  year         = 2024,
+  url          = {https://arxiv.org/abs/2403.15993},
+  archivePrefix= {arXiv},
+  eprint       = {2403.15993},
+  primaryClass = {cs.RO}
 }
+
 ```
 
 # Website License
