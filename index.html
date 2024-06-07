@@ -152,8 +152,10 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-        <image src="./static/videos/cross-leg.gif"
-                alt="cross-leg gif">
+<video id="cross-leg" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/cross-leg.mp4"
+                type="video/mp4">
+      </video>
       <h2 class="subtitle has-text-centered">
         The Cassie robot performs the cross-leg dynamics manuver on CAREN platform to recovery from an external disturbance.
       </h2>
@@ -195,33 +197,31 @@
 
     <div class="columns is-centered">
 
-      <!-- Boat Motion. -->
+      <!-- Ship Motion. -->
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Boat Motion</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
+<!--           <p>
+            About ship motion [TODO]
+          </p> -->
+          <video id="ship-motion" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/ship-motion.mp4"
                     type="video/mp4">
           </video>
         </div>
       </div>
-      <!--/ Boat Motion. -->
+      <!--/ Ship Motion. -->
 
-      <!-- Tilting. -->
+      <!-- Sloped terrain -->
       <div class="column">
-        <h2 class="title is-3">Tilting</h2>
+        <h2 class="title is-3">Sloped Terrain</h2>
         <div class="columns is-centered">
           <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
+<!--             <p>
+             [TODO]
+            </p> -->
+            <video id="sloped-terrain" controls playsinline height="100%">
+              <source src="./static/videos/tiled-terrain.mp4"
                       type="video/mp4">
             </video>
           </div>
@@ -229,7 +229,7 @@
         </div>
       </div>
     </div>
-    <!--/ Tilting. -->
+    <!--/ Sloped terrain -->
     
     <div class="columns is-centered">
 
@@ -237,12 +237,11 @@
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Stepping Stone</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
+<!--           <p>
+            [TODO]
+          </p> -->
+          <video id="stepping-stone" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/stepping-stone.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -254,12 +253,11 @@
         <h2 class="title is-3">Bump'Em</h2>
         <div class="columns is-centered">
           <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
+<!--             <p>
+              [TODO]
+            </p> -->
+            <video id="nump-em" controls playsinline height="100%">
+              <source src="./static/videos/bump'em.mp4"
                       type="video/mp4">
             </video>
           </div>
@@ -269,8 +267,33 @@
     </div>
     <!--/ Bump'Em. -->
 
-    <!-- Lidar Research Group. -->
-    <div class="columns is-centered">
+      <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">Omnidirectional Horizontal Perturbation</h2>
+<video id="caren" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/caren.mp4"
+                type="video/mp4">
+      </video>
+<!--       <h2 class="subtitle has-text-centered">
+       [TODO]
+      </h2> -->
+    </div>
+  </div>
+
+          <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">Orientational Perturbation</h2>
+<video id="orientational" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/orientational.mp4"
+                type="video/mp4">
+      </video>
+<!--       <h2 class="subtitle has-text-centered">
+       [TODO]
+      </h2> -->
+    </div>
+  </div>
+<!--     Lidar Research Group. -->
+<!--     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Lidar Research Group</h2>
 
@@ -293,7 +316,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Lidar Research Group. -->
 
   </div>
