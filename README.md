@@ -2,7 +2,7 @@
 
 This is the repository that contains source code for the [Bipedal STL MPC website](https://bipedal-stl-mpc.github.io).
 
-If you find Nerfies useful for your work please cite:
+If you find Bipedal STL MPC useful for your work please cite:
 ```
 @article{arxiv:2403.15993,
   author       = {Zhaoyuan Gu and Yuntian Zhao and Yipu Chen and Rongming Guo and Jennifer K. Leestma and Gregory S. Sawicki and Ye Zhao},
@@ -14,7 +14,6 @@ If you find Nerfies useful for your work please cite:
   eprint       = {2403.15993},
   primaryClass = {cs.RO}
 }
-
 ```
 
 # Website License
