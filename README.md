@@ -1,6 +1,6 @@
 # SZN-MPC
 
-This is the repository that contains source code for the [Bipedal STL MPC website](https://szn-mpc.github.io).
+This is the repository that contains the source code for the [SZN-MPC website](https://szn-mpc.github.io).
 
 If you find Bipedal SZN-MPC useful for your work please cite:
 ```
