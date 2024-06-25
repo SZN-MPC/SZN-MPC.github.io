@@ -4,7 +4,7 @@ This is the repository that contains source code for the [Bipedal STL MPC websit
 
 If you find Bipedal SZN-MPC useful for your work please cite:
 ```
-@article{arxiv:2403.15993,
+@article{,
   author       = {Abdulaziz Shamsah, Krishanu Agarwal, Nigam Katta, Abirath Raju, Shreyas Kousik and Ye Zhao},
   title        = {Socially Acceptable Bipedal Robot Navigation via Social Zonotope Network Model Predictive Control},
   journal      = {},
