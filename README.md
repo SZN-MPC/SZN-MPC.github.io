@@ -4,15 +4,13 @@ This is the repository that contains the source code for the [SZN-MPC website](h
 
 If you find Bipedal SZN-MPC useful for your work please cite:
 ```
-@article{,
-  author       = {Abdulaziz Shamsah, Krishanu Agarwal, Nigam Katta, Abirath Raju, Shreyas Kousik and Ye Zhao},
-  title        = {Socially Acceptable Bipedal Robot Navigation via Social Zonotope Network Model Predictive Control},
-  journal      = {},
-  year         = 2024,
-  url          = {},
-  archivePrefix= {arXiv},
-  eprint       = {},
-  primaryClass = {cs.RO}
+@article{shamsah2024socially,
+      title={Socially Acceptable Bipedal Robot Navigation via Social Zonotope Network Model Predictive Control}, 
+      author={Abdulaziz Shamsah and Krishanu Agarwal and Nigam Katta and Abirath Raju and Shreyas Kousik and Ye Zhao},
+      journal={arXiv preprint arXiv:2406.17151},
+      year={2024},
+      primaryClass={cs.RO}
+      url={https://arxiv.org/abs/2406.17151}, 
 }
 ```
 
